@@ -9,7 +9,7 @@ products-
     body:
         body wash,soap,body lotion,body cream,body scrub,body oils,Hand Care,Foot Care,spary,Body Butter
         
-FACE:
+F
 
 Product: Cleanser Price: ₹299 Tags: Gentle, Hydrating, Daily Care
 Details: A gentle cleanser that removes dirt, oil, and makeup while
