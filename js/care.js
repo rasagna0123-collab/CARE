@@ -47,3 +47,29 @@ searchIcon.addEventListener("click", () => {
     searchBox.classList.toggle("show");
 
 });
+// ================= HERO SLIDE LINKS =================
+
+// Slide 1
+document.getElementById("slide1").addEventListener("click", () => {
+    window.location.href = "all-products.html";
+});
+
+// Slide 2
+document.getElementById("slide2").addEventListener("click", () => {
+    window.location.href = "face-essentials.html";
+});
+
+// Slide 3
+document.getElementById("slide3").addEventListener("click", () => {
+    window.location.href = "body-essentials.html";
+});
+
+// Slide 4
+document.getElementById("slide4").addEventListener("click", () => {
+    window.location.href = "hair-essentials.html";
+});
+
+// Slide 5
+document.getElementById("slide5").addEventListener("click", () => {
+    window.location.href = "bestsellers.html";
+});

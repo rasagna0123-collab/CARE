@@ -1,0 +1,11 @@
+# Backend
+carebackend/node_modules/
+carebackend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Optional
+.vscode/
+.DS_Store

@@ -76,7 +76,9 @@ body{
 
     list-style:none;
 
-    gap:75px;
+    gap:60px;
+
+    transform:translateX(-10px);
 
 }
 
@@ -86,11 +88,13 @@ body{
 
     color:#222;
 
-    font-size:20px;
+    font-size:15px;
 
     font-weight:500;
 
     transition:.3s;
+
+    align-items:center;
 
 }
 
@@ -114,7 +118,7 @@ body{
 
 .icons i{
 
-    font-size:30px;
+    font-size:20px;
 
     cursor:pointer;
 
@@ -149,7 +153,7 @@ header{
 
     width:100%;
 
-    height:300px;
+    height:400px;
 
     position:relative;
 
@@ -336,5 +340,241 @@ header{
 .search-box.show{
 
     display:block;
+
+}
+.slide{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    opacity:0;
+
+    transition:opacity .8s ease;
+
+    z-index:1;
+
+    pointer-events:none;
+
+}
+.slide.active{
+
+    opacity:1;
+
+    z-index:2;
+
+    pointer-events:auto;
+
+}
+.prev,
+.next{
+
+    z-index:10;
+
+}
+.dots{
+
+    z-index:10;
+
+}
+/* ================= CLICKABLE HERO SLIDES ================= */
+
+#slide1,
+#slide2,
+#slide3,
+#slide4,
+#slide5{
+    cursor:pointer;
+}
+/*================ ALL PRODUCTS PAGE ================*/
+
+.page-title{
+
+    margin-top:140px;
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.page-title h3{
+
+    font-size:20px;
+
+    color:#872D91;
+
+    margin-bottom:9px;
+
+}
+
+.page-title p{
+
+    font-size:18px;
+
+    color:#666;
+
+}
+/*================ CATEGORY =================*/
+
+.category{
+
+    width:90%;
+
+    margin:60px auto;
+
+}
+
+.category-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+.category-header h3{
+
+    font-size:20px;
+
+    color:#872D91;
+
+}
+
+.category-header a{
+
+    text-decoration:none;
+
+    color:#872D91;
+
+    font-weight:100;
+
+}
+
+.category-header a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+/*================ PRODUCT GRID =================*/
+
+.product-grid{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+
+/*================ PRODUCT CARD =================*/
+
+.product-card{
+
+    width:220px;
+
+    background:#fff;
+
+    border-radius:13px;
+
+    padding:16px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.product-image{
+
+    width:100%;
+
+    height:220px;
+
+    background:#f4f4f4;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#888;
+
+    font-size:20px;
+
+    margin-bottom:20px;
+
+}
+
+.product-card h2{
+
+    font-size:20px;
+
+    margin-bottom:10px;
+
+}
+
+.rating{
+
+    color:gold;
+
+    margin-bottom:10px;
+
+}
+
+.price{
+
+    font-size:19px;
+
+    font-weight:bold;
+
+    color:#872D91;
+
+    margin-bottom:20px;
+
+}
+
+.product-card button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#872D91;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.product-card button:hover{
+
+    background:#6d2275;
 
 }
